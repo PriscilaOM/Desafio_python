@@ -113,7 +113,7 @@ def listar_contas(contas):
         print("=" * 100)
         print(textwrap.dedent(linha))
         
-#def excluir_conta(usuario, numero_conta, cpf, ):
+
    
 def main():
     LIMITE_SAQUES = 3
@@ -159,7 +159,7 @@ def main():
 
             if conta:
                 contas.append(conta)
-                #numero_conta += 1
+               
 
         elif opcao == "l":
             listar_contas(contas)
